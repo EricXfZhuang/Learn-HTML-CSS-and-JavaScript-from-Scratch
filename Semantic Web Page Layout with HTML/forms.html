@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <title>Working with HTML Forms</title>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Login Page</h1>
+    <form>
+        <label for="username">
+        Username: 
+        <input type="text" id="username" name="username">
+        </label>
+        <br/>
+        <label for="password">
+            Password:
+            <input type="password" id="password" name="password">
+        </label>
+        <br/>
+        <label for="email">
+            Email-address:
+            <input type="email" id="email" name="email">
+        </label>
+        <br/>
+        <label for="url">
+            URL:
+            <input type="url" id="url" name="url">
+        </label>
+        <br/>
+        <label for="multiLineInput">
+                <p>This is an input element that can include new lines:</p>
+                <textarea id="multiLineInput"></textarea>
+        </label>
+        <br/>
+        <label for="mutliLineInputConstrain">
+            <textarea rows="5" cols="50" id="mutliLineInputConstrain"></textarea>
+        </label>
+    </form>>
+    <br/>
+    <form>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName">
+        <br/>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName">
+        <button type="button">submmit</button>
+    </form>
+    <br/>
+    <form>
+        <label for="selector">
+                <p>A <code>select</code> element allows users to input from a selection:</p>
+                <select id="selector">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option selected>Option 3</option>
+                    <option>Option 4</option>
+                </select>
+            </label>
+    </form>
+    <br/>
+    <form>
+        <label for="selector">
+                <p>A <code>select</code> element allows users to input from a selection:</p>
+                <select id="selector">
+                    <optgroup label="Group1">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </optgroup>
+                    <optgroup label="Group 2">
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                    </optgroup>
+                    <optgroup label="Group 3">
+                        <option>Option 5</option>
+                        <option>Option 6</option>
+                    </optgroup>
+                </select>
+        </label>
+    </form>
+    <br/>
+    <form>
+        <h3>What time is best to give you a call?</h3>
+        <label for="morning">
+            Morning
+            <input type="radio" id="morning" name="callTime" checked>
+        </label>
+        <label for="afternoon">
+            Afternoon
+            <input type="radio" id="afternoon" name="callTime">
+        </label>
+        <label for="evening">
+            Evening
+            <input type="radio" id="evening" name="callTime">
+        </label>
+    </form>
+    <br/>
+    <form>
+        <h3>Select all the times that you are available:</h3>
+        <label for="morning">
+            Morning
+            <input type="checkbox" id="morning" name="callTime" checked>
+        </label>
+        <label for="afternoon">
+            Afternoon
+            <input type="checkbox" id="afternoon" name="callTime">
+        </label>
+        <label for="evening">
+            Evening
+            <input type="checkbox" id="evening" name="callTime">
+        </label>
+    </form>
+</body>
+
+</html>
